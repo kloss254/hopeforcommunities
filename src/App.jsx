@@ -7,17 +7,20 @@ import GetInvolved from "./pages/GetInvolved";
 import Programs from "./pages/Programs";
 import Impact from "./pages/Impact";
 
+import AlbumPage from "./pages/AlbumPage";
+import PartnersPage from "./pages/PartnersPage";
+
 function App() {
   return (
     <Router>
       <div style={{ padding: "20px" }}>
-
-        {/* Page routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/GetInvolved" element={<GetInvolved />} />
-          <Route path="/Programs" element={<Programs />} />
+          <Route path="/getinvolved" element={<GetInvolved />} />
+          <Route path="/programs" element={<Programs />} />
+          <Route path="/partners" element={<PartnersPage />} />
+          <Route path="/album" element={<AlbumPage />} />
           <Route path="/impact" element={<Impact />} />
         </Routes>
       </div>
