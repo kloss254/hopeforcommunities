@@ -8,6 +8,8 @@ import Programs from "./pages/Programs";
 
 import AlbumPage from "./pages/AlbumPage";
 import PartnersPage from "./pages/PartnersPage";
+import Impact from "./pages/Impact";  
+ 
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path="/programs" element={<Programs />} />
           <Route path="/partners" element={<PartnersPage />} />
           <Route path="/album" element={<AlbumPage />} />
+          < Route path="/impact" element={<Impact />} />
         </Routes>
       </div>
     </Router>
