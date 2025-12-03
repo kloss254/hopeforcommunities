@@ -9,12 +9,10 @@ import Impact from "./pages/Impact";
 
 import AlbumPage from "./pages/AlbumPage";
 import PartnersPage from "./pages/PartnersPage";
-import Impact from "./pages/Impact";  
- 
 
 function App() {
   return (
-    <Router>
+    <Router basename="/hopeforcommunities"> {/* 👈 Set your repo name here */}
       <div style={{ padding: "20px" }}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,11 +21,7 @@ function App() {
           <Route path="/programs" element={<Programs />} />
           <Route path="/partners" element={<PartnersPage />} />
           <Route path="/album" element={<AlbumPage />} />
-<<<<<<< HEAD
-          < Route path="/impact" element={<Impact />} />
-=======
           <Route path="/impact" element={<Impact />} />
->>>>>>> 69c8091e651dc2d7a01e8a22330086222fc23cb4
         </Routes>
       </div>
     </Router>

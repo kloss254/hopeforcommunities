@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://wizjatelo.github.io/hopeforcommunities/",
+  "homepage": "https://kloss254.github.io/hopeforcommunities/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
